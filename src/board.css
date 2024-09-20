@@ -1,0 +1,191 @@
+/*
+.board {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #999;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+}
+
+.board-square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+.board-square.even {
+    background-color: #ddd;
+}
+
+.board-square.odd {
+    background-color: #fff;
+}
+
+
+.board-square.active1 {
+    background-color: #00f;
+    color: #fff;
+}
+
+.board-square.active2 {
+    background-color: orange;
+    color: #fff;
+}
+
+.snake-image {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    transform: rotate(300deg);
+    opacity: 0.5;
+}
+
+.snake-image {
+    left: 0;
+}
+
+.ladder-image {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    opacity: 0.5;
+    transform: rotate(35deg);
+}
+
+.ladder-image {
+    right: 0;
+}
+
+.ladder-imageww {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    opacity: 0.5;
+    height: 500px;
+}
+
+.ladder-imageww {
+    right: 0;
+}
+
+.snake-imageww {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    transform: rotate(15deg);
+    opacity: 0.5;
+}
+
+.snake-imageww {
+    left: 1;
+
+}
+*/
+
+.board {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #999;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.board-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+}
+
+.board-square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+.board-square.even {
+    background-color: #ddd;
+}
+
+.board-square.odd {
+    background-color: #fff;
+}
+
+
+.board-square.active1 {
+    background-color: #00f;
+    color: #fff;
+}
+
+.board-square.active2 {
+    background-color: orange;
+    color: #fff;
+}
+
+.snake-image {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    transform: rotate(300deg);
+    opacity: 0.5;
+}
+
+.snake-image {
+    left: 0;
+}
+
+.ladder-image {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    opacity: 0.5;
+    transform: rotate(35deg);
+}
+
+.ladder-image {
+    right: 0;
+}
+
+.ladder-imageww {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    opacity: 0.5;
+    height: 500px;
+}
+
+.ladder-imageww {
+    right: 0;
+}
+
+.snake-imageww {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    transform: rotate(15deg);
+    opacity: 0.5;
+}
+
+.snake-imageww {
+    left: 1;
+
+}
